@@ -9,8 +9,15 @@ The following libraries were used:
 - pandas
 - matplotlib
 
-# Project Motivation
-This code was written as part of Udacity's Data Science Nanodegree program
+# Project Motivation and Summary
+This code was written as part of Udacity's Data Science Nanodegree program.
+
+Leveraging publicly available data from Airbnb with listing information from the Seattle market, we observed the following:
+- Prices show significant variation by neighborhood
+- Prices show moderate variation by time of year
+- A linear model predicting price as a function of neighborhood, time of year, number of bedrooms, number of bathrooms, availability, and review score explains more than 50% of the variation in prices in the Seattle market.
+
+Areas for future research include how to improve prediction accuracy, particularly for the small percentage of higher-end listings.
 
 # File Descriptions
 The file "Airbnb Analysis.ipynb" contains all of the code for this project
